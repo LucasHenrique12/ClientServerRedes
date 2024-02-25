@@ -21,7 +21,7 @@ public class servidorUdplocal {
 
             // Cria um buffer para enviar dados ao cliente
             byte[] bufferEnvio = new byte[1024];
-            String mensagem = "Olá, cliente!";
+            String mensagem = "Olá, Fernando!";
             bufferEnvio = mensagem.getBytes();
 
             // Cria um pacote UDP para enviar os dados ao cliente
